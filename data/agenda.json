@@ -1,0 +1,206 @@
+[{
+  "time": {
+    "start": "9:00",
+    "end": "9:30"
+  },
+  "title": "Registration",
+  "type": "logistics"
+}, {
+  "time": {
+    "start": "9:30",
+    "end": "10:00"
+  },
+  "title": "Welcome Keynote",
+  "type": "talk",
+  "presenters": [{
+    "name": "Talk details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "10:00",
+    "end": "10:30"
+  },
+  "title": "Tech",
+  "type": "tech",
+  "presenters": [{
+    "name": "Tech details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "10:30",
+    "end": "11:00"
+  },
+  "title": "Morning Break",
+  "type": "break"
+}, {
+  "time": {
+    "start": "11:00",
+    "end": "11:30"
+  },
+  "title": "Enterprise",
+  "type": "talk",
+  "presenters": [{
+    "name": "Enterprise details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "11:30",
+    "end": "12:00"
+  },
+  "title": "Tech",
+  "type": "tech",
+  "presenters": [{
+    "name": " Tech details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "12:00",
+    "end": "12:30"
+  },
+  "title": "Panel",
+  "type": "panel",
+  "panel": true,
+  "presenters": [{
+    "name": "Panel details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "12:30",
+    "end": "1:30"
+  },
+  "title": "Lunch",
+  "type": "break"
+}, {
+  "time": {
+    "start": "1:30",
+    "end": "2:00"
+  },
+  "title": "Enterprise",
+  "type": "talk",
+  "presenters": [{
+    "name": "Enterprise details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "2:00",
+    "end": "2:30"
+  },
+  "title": "Tech",
+  "type": "tech",
+  "presenters": [{
+    "name": " Tech details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "2:30",
+    "end": "2:30"
+  },
+  "title": "Afternoon break",
+  "type": "break"
+}, {
+  "time": {
+    "start": "3:00",
+    "end": "3:30"
+  },
+  "title": "Enterprise",
+  "type": "talk",
+  "presenters": [{
+    "name": "Enterprise details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "3:30",
+    "end": "4:00"
+  },
+  "title": "Tech",
+  "type": "tech",
+  "presenters": [{
+    "name": " Tech details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "4.00",
+    "end": "4:30"
+  },
+  "title": "Panel",
+  "type": "panel",
+  "panel": true,
+  "presenters": [{
+    "name": "Panel details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}, {
+  "time": {
+    "start": "4:30",
+    "end": "5:00"
+  },
+  "title": "Final Thoughts",
+  "type": "talk",
+  "presenters": [{
+    "name": "Enterprise details to be confirmed",
+    "title": "",
+    "organisation": "",
+    "twitter": "",
+    "github": "",
+    "blurb": "",
+    "image": "images/speakers/placeholder.jpg"
+  }]
+}]
