@@ -1,31 +1,41 @@
-## Microservices Day
+![Nodezoo](https://github.com/nodezoo/nodezoo-org/blob/master/assets/logo-nodezoo.png)
 
-This repo contains the public website for the Microservices day public website, located at [http://microservicesday.com](http://microservicesday.com).
+# nodezoo-travis
+A microservice for pulling travis stats into nodezoo
 
-## Development
+- __Sponsor:__ [nearForm][]
 
-The site is built using a simple Gulp toolchain which consists of several key tasks:
+- __Work in progress:__ This module is currently a work in progress.
 
-**HTML** - build the Handlebars templates in `./pages` using data passed in from the `./data` directory and put them in `./dist/index.html`. There is currently only one page
+## Install
+1. clone this repo into a root _/nodezoo_ folder.
+2. run `npm install`
 
-**CSS** - build the final CSS from the LESS contained in `./styles` and compile it to `./dist/microservices-day.css`
+## Messages
 
-**JS** - Concat and uglify explicitly declared NPM managed clientside libs into `./dist/js/vendor.js`. Browserfy, Babelify, concat then copy ES6 app JS into `./dist/js/app/js`
+This micro-service recognizes the following messages:
 
-**Images** - Copy everything in `./images/` into `./dist/images`
+  * _role:travis,cmd:get_
+  * _role:travis,cmd:parse_
+  * _role:travis,cmd:extract_
 
-**Static assets** - Copy everything in `./static/` into `./dist`
+## Running with Curl
 
-## The following top level Gulp tasks are available
-
+Any of the messages above can be run using curl in the following format in the command line
 ```
-gulp serve // start dev server
-gulp build // build production assets
-gulp deploy // run 'build' then automagically deploy to gh-pages (need repo write access)
-``` 
+curl -d '{"role":"travis","cmd":"get","query":"YOUR_TEXT_HERE"}' http://localhost:52472/act
+```
+
+## Contributing
+The [NodeZoo][] org encourages __open__ and __safe__ participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
+
+- Before contributing please review our __[Code of Conduct]__
 
 ## License
+Copyright (c) 2016, Matthew O'Connor and other contributors.
+Licensed under [MIT][].
 
-There are trademarks and brand names that are proprietary, and all their rights are reserved. This repository or license does not in any way give license for their usage without explicit written permission.
-
-However, the code and non-protected marks and names are licensed under the MIT license.
+[MIT]: ./LICENSE
+[Code of Conduct]: https://github.com/nodezoo/nodezoo-org/blob/master/CoC.md
+[nearForm]: http://www.nearform.com/
+[NodeZoo]: http://www.nodezoo.com/
