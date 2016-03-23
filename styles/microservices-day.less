@@ -1,0 +1,63 @@
+// Layout
+@width: 960px;
+@tablet-width: @width - ((@width / 100) * 25);
+@mobile-width: @width - ((@width / 100) * 35);
+@mobile-width-portrait: @width - ((@width / 100) * 65);
+@mobile-width-portrait-iphone5: @width - ((@width / 100) * 70);
+@mobile-width-portrait-iphone5-landscape: @width - ((@width / 100) * 45);
+
+@tablet-width-contraint: 768px;
+@mobile-width-contraint: 414px;
+@mobile-width-contraint-iphone5: 320px;
+@mobile-width-contraint-iphone5-landscape: 568px;
+@mobile-width-contraint-landscape: 667px;
+
+// Colors
+@image-overlay: #082b42;
+@white: #fff;
+@red: #FF4443;
+@orange: #FFA729;
+@base-text: #444;
+
+// Typography
+@base-font-family: 'Helvetica', sans-serif;
+@header-font-family: 'Anton', sans-serif;
+
+// Includes
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700,400);
+
+@import "includes/button";
+@import "includes/header";
+@import "includes/footer";
+@import "includes/masthead";
+@import "includes/about";
+@import "includes/presenter";
+@import "includes/agenda";
+@import "includes/location";
+@import "includes/hotels";
+
+html,
+body {
+  background: @white;
+  font-family: @base-font-family;
+  padding: 0;
+  margin: 0;
+  color: @base-text;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: @header-font-family;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
